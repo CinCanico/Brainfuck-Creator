@@ -27,6 +27,10 @@
 *.lib
 
 # Executables
-*.exe
 *.out
 *.app
+
+
+# Other
+.git
+.vscode
