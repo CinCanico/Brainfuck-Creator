@@ -120,7 +120,6 @@ int BFC::_find_half_min_() {
     for (int i = 0; i < static_cast<int>(this->_ascii_vec.size()); i++) {
         if (this->_ascii_vec[i] < _min) _min = this->_ascii_vec[i];
     }
-    std::cout << "Found Half!" << std::endl;
     return (int)(_min / 2);
 }
 
@@ -137,7 +136,6 @@ void BFC::_init_calc_vecs_() {
         this->_k_vec[i] = (int)(this->_ascii_vec[i] / this->_iter);
         this->_add_vec[i] = (int)(this->_ascii_vec[i] % this->_iter);
     }
-    std::cout << "Initialized Arrays!" << std::endl;
 }
 
 std::string BFC::_return_endline_() {

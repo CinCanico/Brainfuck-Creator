@@ -11,7 +11,19 @@ If you read the wiki page the BrainFuck programming language consists of basic s
 There is no reason really. My friends and I send BrainFuck programs to eachother instead of normal sentences. I was bored of programming simple strings with BrainFuck and it started to become a challenge. Thus I created a C++ program for it.
 
 ## How do I use this?
-If you just want to use it, run the .exe and the program will ask you for a string. Only give it ASCII letters as BrainFucks printing is based on ASCII values. If you want to check out the source code open [main.cpp](/main.cpp) and follow the included .hpp files and their corresponding .cpp files.  
+If you just want to use it, run the .exe and the program will ask you for a string. Only give it ASCII letters as BrainFucks printing is based on ASCII values. If you want to check out the source code open [main.cpp](/main.cpp) and follow the included .hpp files and their corresponding .cpp files. If the .exe doesn't work or you are on Linux:
+* Windows :
+  * Run [Win_compile_and_run.bat](/Win_compile_and_run.bat) or
+  * ```batch
+    g++ main.cpp BFC.cpp -o BrainFuck_Creator
+    BrainFuck_Creator.exe
+    ```
+* Linux :
+  * Run [Linux_compile_and_run.sh](/Linux_compile_and_run.sh) or
+  * ```bash
+    g++ main.cpp BFC.cpp
+    a.out
+    ``` 
 
 ----
 Here is a cheatsheet for the BrainFuck programming language:
